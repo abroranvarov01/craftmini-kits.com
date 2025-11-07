@@ -12,7 +12,8 @@ const products = [
     price: "$24.99",
     rating: 5,
     image: "https://m.media-amazon.com/images/I/919Ui+wqJWL._AC_SX679_.jpg",
-    amazonUrl: "https://www.amazon.com/Dimensions-Needlecrafts-Collection-Counted-Treasured/dp/B00114THOY?tag=craftmini-20",
+    amazonUrl:
+      "https://www.amazon.com/Dimensions-Needlecrafts-Collection-Counted-Treasured/dp/B00114THOY?tag=craftmini-20",
   },
   {
     slug: "freebloss-macrame-kit-beginners",
@@ -28,7 +29,8 @@ const products = [
     price: "$19.99",
     rating: 5,
     image: "https://m.media-amazon.com/images/I/61z1f5xSpcL._AC_SX679_PIbundle-40,TopRight,0,0_SH20_.jpg",
-    amazonUrl: "https://www.amazon.com/Howemon-Unscented-Witchcraft-Meditation-Decoration/dp/B0FFMBKFGY?tag=craftmini-20",
+    amazonUrl:
+      "https://www.amazon.com/Howemon-Unscented-Witchcraft-Meditation-Decoration/dp/B0FFMBKFGY?tag=craftmini-20",
   },
   {
     slug: "artistro-watercolor-paint-set",
@@ -36,7 +38,8 @@ const products = [
     price: "$19.99",
     rating: 5,
     image: "https://m.media-amazon.com/images/I/81vkeAwaSHL._AC_SY879_PIbundle-48,TopRight,0,0_SH20_.jpg",
-    amazonUrl: "https://www.amazon.com/Artistro-Watercolor-Including-Fluorescent-Hobbyists/dp/B08D2DJPD3?tag=craftmini-20",
+    amazonUrl:
+      "https://www.amazon.com/Artistro-Watercolor-Including-Fluorescent-Hobbyists/dp/B08D2DJPD3?tag=craftmini-20",
   },
   {
     slug: "inscraft-embroidery-starter-kit",
@@ -44,7 +47,8 @@ const products = [
     price: "$23.99",
     rating: 4,
     image: "https://m.media-amazon.com/images/I/91G9WBs4HbL._AC_SX679_.jpg",
-    amazonUrl: "https://www.amazon.com/Inscraft-Embroidery-Including-Instructions-Beginners/dp/B087RB2K2B?tag=craftmini-20",
+    amazonUrl:
+      "https://www.amazon.com/Inscraft-Embroidery-Including-Instructions-Beginners/dp/B087RB2K2B?tag=craftmini-20",
   },
   {
     slug: "aestd-st-polymer-clay-kit",
@@ -60,7 +64,8 @@ const products = [
     price: "$29.99",
     rating: 4,
     image: "https://m.media-amazon.com/images/I/71ENtwRIXxL._AC_SX679_.jpg",
-    amazonUrl: "https://www.amazon.com/Embroidery-Beginners-Patterns-Instructions-Beginner/dp/B0D1Y28SQB?tag=craftmini-20",
+    amazonUrl:
+      "https://www.amazon.com/Embroidery-Beginners-Patterns-Instructions-Beginner/dp/B0D1Y28SQB?tag=craftmini-20",
   },
   {
     slug: "jexine-darning-mushroom-kit",
@@ -93,42 +98,41 @@ export function ProductGallery() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product, index) => (
-            <Card
-              key={product.slug}
-              className="card-breathe color-glow bg-white/60 backdrop-blur-sm border-white/80 shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden group"
-              style={{ animationDelay: `${index * 100}ms` }}
-            >
-              <CardHeader className="p-0">
-                <div className="relative overflow-hidden rounded-t-xl">
-                  <img
-                    src={product.image || "/placeholder.svg"}
-                    alt={product.name}
-                    className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                </div>
-              </CardHeader>
-              <CardContent className="p-6 space-y-3">
-                <CardTitle className="text-xl text-charcoal font-semibold text-balance">{product.name}</CardTitle>
-                <div className="flex items-center gap-1">
-                  {Array.from({ length: 5 }).map((_, i) => (
-                    <Star
-                      key={i}
-                      className={`h-4 w-4 ${
-                        i < product.rating ? "fill-coral text-coral" : "fill-none text-charcoal/20"
-                      }`}
+            <Link key={product.slug} href={`/products/${product.slug}`}>
+              <Card
+                className="card-breathe color-glow bg-white/60 backdrop-blur-sm border-white/80 shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden group cursor-pointer"
+                style={{ animationDelay: `${index * 100}ms` }}
+              >
+                <CardHeader className="p-0">
+                  <div className="relative overflow-hidden rounded-t-xl">
+                    <img
+                      src={product.image || "/placeholder.svg"}
+                      alt={product.name}
+                      className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
                     />
-                  ))}
-                </div>
-              </CardContent>
-              <CardFooter className="p-6 pt-0 flex items-center justify-between">
-                <Link href={product.amazonUrl} target="_blank" rel="noopener noreferrer" className="w-full">
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  </div>
+                </CardHeader>
+                <CardContent className="p-6 space-y-3">
+                  <CardTitle className="text-xl text-charcoal font-semibold text-balance">{product.name}</CardTitle>
+                  <div className="flex items-center gap-1">
+                    {Array.from({ length: 5 }).map((_, i) => (
+                      <Star
+                        key={i}
+                        className={`h-4 w-4 ${
+                          i < product.rating ? "fill-coral text-coral" : "fill-none text-charcoal/20"
+                        }`}
+                      />
+                    ))}
+                  </div>
+                </CardContent>
+                <CardFooter className="p-6 pt-0 flex items-center justify-between">
                   <Button className="watercolor-btn bg-lavender hover:bg-lavender-dark text-white rounded-full w-full">
                     View Kit
                   </Button>
-                </Link>
-              </CardFooter>
-            </Card>
+                </CardFooter>
+              </Card>
+            </Link>
           ))}
         </div>
       </div>
