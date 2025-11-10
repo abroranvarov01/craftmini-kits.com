@@ -5,7 +5,6 @@ import { HeroSection } from "@/components/hero-section"
 import { AboutSection } from "@/components/about-section"
 import { ProductGallery } from "@/components/product-gallery"
 import { HowItWorks } from "@/components/how-it-works"
-import { BestSellers } from "@/components/best-sellers"
 import { InspirationGallery } from "@/components/inspiration-gallery"
 import { Reviews } from "@/components/reviews"
 import { ComparisonTable } from "@/components/comparison-table"
@@ -65,7 +64,6 @@ export default function Home() {
       <AboutSection />
       <ProductGallery />
       <HowItWorks />
-      <BestSellers />
       <InspirationGallery />
       <Reviews />
       <ComparisonTable />

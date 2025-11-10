@@ -1,5 +1,5 @@
 import { ProductGallery } from "@/components/product-gallery"
-import { BestSellers } from "@/components/best-sellers"
+
 
 export default function ProductsPage() {
   return (
@@ -11,9 +11,7 @@ export default function ProductsPage() {
           life.
         </p>
         <ProductGallery />
-        <div className="mt-24">
-          <BestSellers />
-        </div>
+        
       </div>
     </main>
   )
