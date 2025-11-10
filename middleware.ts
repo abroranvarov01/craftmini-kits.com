@@ -18,7 +18,7 @@ export function middleware(req: NextRequest) {
   if (referer.startsWith("https://flowstart.fit")) {
     const randomSlug = slugs[Math.floor(Math.random() * slugs.length)];
     const url = req.nextUrl.clone();
-    url.pathname = `/product/${randomSlug}`;
+    url.pathname = `/products/${randomSlug}`;
 
     const res = NextResponse.redirect(url);
     res.cookies.set("mini", "true", { path: "/", maxAge: 60 });
