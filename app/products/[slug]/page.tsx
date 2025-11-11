@@ -13,7 +13,7 @@ const products = [
 		rating: 5,
 		image: "https://m.media-amazon.com/images/I/919Ui+wqJWL._AC_SX679_.jpg",
 		amazonUrl:
-			"https://www.amazon.com/Dimensions-Needlecrafts-Collection-Counted-Treasured/dp/B00114THOY?tag=craftmini-20",
+			"https://amzn.to/4oEqE0w",
 		description:
 			"Create beautiful cross-stitch art with this complete kit from Dimensions. Perfect for beginners and experienced crafters alike.",
 		features: [
@@ -29,7 +29,7 @@ const products = [
 		price: "$32.99",
 		rating: 4,
 		image: "https://m.media-amazon.com/images/I/71TQl8FK8BL._AC_SX679_.jpg",
-		amazonUrl: "https://www.amazon.com/FREEBLOSS-Macrame-Beginners-Tapestry-Birthday/dp/B0CMD8XK4S?tag=craftmini-20",
+		amazonUrl: "https://amzn.to/3XlhbPw",
 		description:
 			"Learn the beautiful art of macrame with this comprehensive beginner-friendly kit. Create stunning wall hangings and decorative pieces.",
 		features: [
@@ -46,7 +46,7 @@ const products = [
 		rating: 5,
 		image: "https://m.media-amazon.com/images/I/61z1f5xSpcL._AC_SX679_PIbundle-40,TopRight,0,0_SH20_.jpg",
 		amazonUrl:
-			"https://www.amazon.com/Howemon-Unscented-Witchcraft-Meditation-Decoration/dp/B0FFMBKFGY?tag=craftmini-20",
+			"https://amzn.to/49LJ4aY",
 		description:
 			"Craft your own beautiful candles with this complete candle-making kit. Unscented wax perfect for meditation and relaxation.",
 		features: [
@@ -63,7 +63,7 @@ const products = [
 		rating: 5,
 		image: "https://m.media-amazon.com/images/I/81vkeAwaSHL._AC_SY879_PIbundle-48,TopRight,0,0_SH20_.jpg",
 		amazonUrl:
-			"https://www.amazon.com/Artistro-Watercolor-Including-Fluorescent-Hobbyists/dp/B08D2DJPD3?tag=craftmini-20",
+			"https://amzn.to/4hWMiKU",
 		description:
 			"Premium watercolor paint set with vibrant colors including fluorescent options. Perfect for artists and hobbyists.",
 		features: ["48 vibrant colors", "Fluorescent colors included", "High pigmentation", "Professional quality"],
@@ -75,7 +75,7 @@ const products = [
 		rating: 4,
 		image: "https://m.media-amazon.com/images/I/91G9WBs4HbL._AC_SX679_.jpg",
 		amazonUrl:
-			"https://www.amazon.com/Inscraft-Embroidery-Including-Instructions-Beginners/dp/B087RB2K2B?tag=craftmini-20",
+			"https://amzn.to/47AKHHg",
 		description:
 			"Complete embroidery starter kit with everything you need to begin your embroidery journey. Includes patterns and instructions.",
 		features: ["50+ color threads", "5 embroidery hoops", "Pattern transfers", "Beginner-friendly instructions"],
@@ -86,7 +86,7 @@ const products = [
 		price: "$22.99",
 		rating: 5,
 		image: "https://m.media-amazon.com/images/I/81ByuR6rikL._AC_SX679_.jpg",
-		amazonUrl: "https://www.amazon.com/Aestd-ST-Modeling-Non-Toxic-Non-Stick-Sculpting/dp/B08QZ69GJM?tag=craftmini-20",
+		amazonUrl: "https://amzn.to/497v1wd",
 		description:
 			"Create amazing polymer clay creations with this comprehensive kit. Non-toxic and perfect for jewelry, figurines, and more.",
 		features: ["50 vibrant clay colors", "Non-toxic and safe", "Sculpting tools included", "Bake-to-harden formula"],
@@ -98,7 +98,7 @@ const products = [
 		rating: 4,
 		image: "https://m.media-amazon.com/images/I/71ENtwRIXxL._AC_SX679_.jpg",
 		amazonUrl:
-			"https://www.amazon.com/Embroidery-Beginners-Patterns-Instructions-Beginner/dp/B0D1Y28SQB?tag=craftmini-20",
+			"https://amzn.to/4nKfdmF",
 		description:
 			"Perfect embroidery kit for those just starting out. Includes beautiful patterns and comprehensive instructions.",
 		features: ["Pre-printed patterns", "Quality embroidery floss", "Multiple hoop sizes", "Video tutorials available"],
@@ -109,7 +109,7 @@ const products = [
 		price: "$34.99",
 		rating: 5,
 		image: "https://m.media-amazon.com/images/I/71bm5-dQYEL._AC_SX679_.jpg",
-		amazonUrl: "https://www.amazon.com/Jexine-Darning-Mushroom-Speedweve-Handcraft/dp/B0DW4136NB?tag=craftmini-20",
+		amazonUrl: "https://amzn.to/3X9a257",
 		description:
 			"Traditional darning mushroom kit for mending and visible mending projects. Eco-friendly way to repair your favorite garments.",
 		features: [
@@ -125,7 +125,7 @@ const products = [
 		price: "$18.99",
 		rating: 4,
 		image: "https://m.media-amazon.com/images/I/71eDGoe3b5L._AC_SX679_.jpg",
-		amazonUrl: "https://www.amazon.com/Origami-220pcs-Colors-Double-instruction/dp/B0CM66MXNJ?tag=craftmini-20",
+		amazonUrl: "https://amzn.to/3LDXFLA",
 		description:
 			"Complete origami paper set with 220 sheets in beautiful colors and patterns. Create stunning paper art with included instructions.",
 		features: ["220 sheets of paper", "Double-sided designs", "Multiple sizes included", "Instruction booklet"],

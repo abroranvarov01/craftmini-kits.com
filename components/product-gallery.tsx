@@ -13,7 +13,7 @@ const products = [
     rating: 5,
     image: "https://m.media-amazon.com/images/I/919Ui+wqJWL._AC_SX679_.jpg",
     amazonUrl:
-      "https://www.amazon.com/Dimensions-Needlecrafts-Collection-Counted-Treasured/dp/B00114THOY?tag=craftmini-20",
+      "https://amzn.to/4oEqE0w",
   },
   {
     slug: "freebloss-macrame-kit-beginners",
@@ -21,7 +21,7 @@ const products = [
     price: "$32.99",
     rating: 4,
     image: "https://m.media-amazon.com/images/I/71TQl8FK8BL._AC_SX679_.jpg",
-    amazonUrl: "https://www.amazon.com/FREEBLOSS-Macrame-Beginners-Tapestry-Birthday/dp/B0CMD8XK4S?tag=craftmini-20",
+    amazonUrl: "https://amzn.to/3XlhbPw",
   },
   {
     slug: "howemon-unscented-candle-set",
@@ -30,7 +30,7 @@ const products = [
     rating: 5,
     image: "https://m.media-amazon.com/images/I/61z1f5xSpcL._AC_SX679_PIbundle-40,TopRight,0,0_SH20_.jpg",
     amazonUrl:
-      "https://www.amazon.com/Howemon-Unscented-Witchcraft-Meditation-Decoration/dp/B0FFMBKFGY?tag=craftmini-20",
+      "https://amzn.to/49LJ4aY",
   },
   {
     slug: "artistro-watercolor-paint-set",
@@ -39,7 +39,7 @@ const products = [
     rating: 5,
     image: "https://m.media-amazon.com/images/I/81vkeAwaSHL._AC_SY879_PIbundle-48,TopRight,0,0_SH20_.jpg",
     amazonUrl:
-      "https://www.amazon.com/Artistro-Watercolor-Including-Fluorescent-Hobbyists/dp/B08D2DJPD3?tag=craftmini-20",
+      "https://amzn.to/4hWMiKU",
   },
   {
     slug: "inscraft-embroidery-starter-kit",
@@ -48,7 +48,7 @@ const products = [
     rating: 4,
     image: "https://m.media-amazon.com/images/I/91G9WBs4HbL._AC_SX679_.jpg",
     amazonUrl:
-      "https://www.amazon.com/Inscraft-Embroidery-Including-Instructions-Beginners/dp/B087RB2K2B?tag=craftmini-20",
+      "https://amzn.to/47AKHHg",
   },
   {
     slug: "aestd-st-polymer-clay-kit",
@@ -56,7 +56,7 @@ const products = [
     price: "$22.99",
     rating: 5,
     image: "https://m.media-amazon.com/images/I/81ByuR6rikL._AC_SX679_.jpg",
-    amazonUrl: "https://www.amazon.com/Aestd-ST-Modeling-Non-Toxic-Non-Stick-Sculpting/dp/B08QZ69GJM?tag=craftmini-20",
+    amazonUrl: "https://amzn.to/497v1wd",
   },
   {
     slug: "embroidery-kit-beginners",
@@ -65,7 +65,7 @@ const products = [
     rating: 4,
     image: "https://m.media-amazon.com/images/I/71ENtwRIXxL._AC_SX679_.jpg",
     amazonUrl:
-      "https://www.amazon.com/Embroidery-Beginners-Patterns-Instructions-Beginner/dp/B0D1Y28SQB?tag=craftmini-20",
+      "https://amzn.to/4nKfdmF",
   },
   {
     slug: "jexine-darning-mushroom-kit",
@@ -73,7 +73,7 @@ const products = [
     price: "$34.99",
     rating: 5,
     image: "https://m.media-amazon.com/images/I/71bm5-dQYEL._AC_SX679_.jpg",
-    amazonUrl: "https://www.amazon.com/Jexine-Darning-Mushroom-Speedweve-Handcraft/dp/B0DW4136NB?tag=craftmini-20",
+    amazonUrl: "https://amzn.to/3X9a257",
   },
   {
     slug: "origami-paper-art-kit",
@@ -81,7 +81,7 @@ const products = [
     price: "$18.99",
     rating: 4,
     image: "https://m.media-amazon.com/images/I/71eDGoe3b5L._AC_SX679_.jpg",
-    amazonUrl: "https://www.amazon.com/Origami-220pcs-Colors-Double-instruction/dp/B0CM66MXNJ?tag=craftmini-20",
+    amazonUrl: "https://amzn.to/3LDXFLA",
   },
 ]
 
